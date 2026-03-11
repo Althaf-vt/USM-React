@@ -1,0 +1,18 @@
+/* RegisterPage.css */
+/* Shares all auth-card styles — copy from LoginPage.css or import it */
+/* If using a bundler, simply: @import './LoginPage.css'; */
+
+/* Any register-specific overrides would go here */
+
+.password-field {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  user-select: none;
+}
